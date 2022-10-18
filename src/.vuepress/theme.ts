@@ -12,9 +12,7 @@ export default hopeTheme({
 
   logo: "/logo.svg",
 
-  editLink: false,
-
-  repo: "nihilityer",
+  repo: "nihilityer/nihilityer.github.io",
 
   docsDir: "docs",
 
