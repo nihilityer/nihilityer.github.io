@@ -1,4 +1,4 @@
-import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as n,c as i,f as s}from"./app.11556243.js";const d={},l=s(`<p>vscode\u4F7F\u7528alt+shift+f\u6574\u7406\u4EE3\u7801\u3002 shift+\uFF01\u53EF\u4EE5\u6309\u7167\u6A21\u677F\u751F\u6210\u5185\u5BB9\u3002</p><p>promise\u5C01\u88C5\u5F02\u6B65\u64CD\u4F5C\uFF1A</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>function get(url, data) {
+import{_ as e}from"./_plugin-vue_export-helper.cdc0426e.js";import{o as n,c as i,f as s}from"./app.20e111af.js";const d={},l=s(`<p><em>\u7528\u4E8E\u4E34\u65F6\u6D4B\u8BD5\uFF01</em> vscode\u4F7F\u7528alt+shift+f\u6574\u7406\u4EE3\u7801\u3002 shift+\uFF01\u53EF\u4EE5\u6309\u7167\u6A21\u677F\u751F\u6210\u5185\u5BB9\u3002</p><p>promise\u5C01\u88C5\u5F02\u6B65\u64CD\u4F5C\uFF1A</p><div class="language-text ext-text line-numbers-mode"><pre class="language-text"><code>function get(url, data) {
     return new Promise((resolve, reject) =&gt; {
         $.ajax({
             url: url,
