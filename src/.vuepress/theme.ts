@@ -14,7 +14,8 @@ export default hopeTheme({
 
   repo: "nihilityer/nihilityer.github.io",
 
-  docsDir: "docs",
+  docsDir: "src",
+  docsBranch: "master",
 
   navbar: ["/", "/reference/", "/experience/", "/essay/"],
 
