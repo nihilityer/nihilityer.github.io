@@ -7,6 +7,7 @@ category:
 tag:
   - tools
 ---
+*用于临时测试！*
 vscode使用alt+shift+f整理代码。
 shift+！可以按照模板生成内容。
 
