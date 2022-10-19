@@ -247,7 +247,7 @@ ps：单独启动hdfs和yarn，因为start-all脚本被弃用了
 
 **mapred-stie.xml与伪分布式一致**
 
-```XML
+```xml
 <configuration>
     <property>
         <name>mapreduce.framework.name</name>
@@ -502,7 +502,7 @@ start-dfs.sh
 
 **配置yarn-site.xml**
 
-```XML
+```xml
     <property>
         <name>yarn.nodemanager.aux-services</name>
         <value>mapreduce_shuffle</value>
@@ -544,7 +544,7 @@ start-dfs.sh
 
 **mapred-site.xml配置**
 
-```XML
+```xml
 <!--配置mapreduce运行在yarn上-->
 <configuration>
     <property>
