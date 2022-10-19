@@ -1,7 +1,6 @@
 ---
 title: 工具使用心得
 icon: linux
-order: 1
 category:
   - 心得
 tag:

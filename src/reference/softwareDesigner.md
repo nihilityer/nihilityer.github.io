@@ -1,7 +1,6 @@
 ---
 title: 软件设计师刷题知识点总结
 icon: exercise
-order: 3
 category:
   - 参考文档
 tag:

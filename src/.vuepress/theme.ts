@@ -8,6 +8,10 @@ export default hopeTheme({
     url: "https://nihilityer.github.io/",
   },
 
+  copyright: "by nihilityer",
+  footer: "MIT Licensed | Copyright ©  nihilityer",
+  displayFooter: true,
+
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
@@ -20,7 +24,6 @@ export default hopeTheme({
   navbar: ["/", "/reference/", "/experience/", "/essay/"],
 
   sidebar: {
-    "/demo/": "structure",
     "/essay/": "structure",
     "/reference/": "structure",
     "/experience/": "structure"
@@ -28,16 +31,7 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
-  // encrypt: {
-  //   config: {
-  //     "/demo/encrypt": ["1234"],
-  //   },
-  // },
-
   plugins: {
-    // If you don't need comment feature, you can remove following option
-    // The following config is for demo ONLY, if you need comment feature, please generate and use your own config, see comment plugin documentation for details.
-    // To avoid disturbing the theme developer and consuming his resources, please DO NOT use the following config directly in your production environment!!!!!
     comment: false,
 
     // Disable features you don't want here

@@ -2,7 +2,6 @@
 title: 2022-10
 index: false
 icon: result
-order: 3
 category:
   - 随笔
 ---

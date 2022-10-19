@@ -1,7 +1,6 @@
 ---
 title: Hadoop安装和使用参考
 icon: linux
-order: 1
 category:
   - 参考文档
 tag:
