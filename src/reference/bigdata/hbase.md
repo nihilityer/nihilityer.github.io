@@ -66,72 +66,72 @@ Table cells 单元格有版本是 HBase 插入单元格时候的时间戳。
 |更新数据|在同一位置重复写入即可|
 ### 3、命令具体演示
 #### 1）创建表
-create 'users','user_id','address','info'
+`create 'users','user_id','address','info'`
 
 表 users,有三个列族 user_id,address,info
 #### 2）列出全部表
-list
+`list`
 #### 3）得到表的描述
-describe 'users'
+`describe 'users'`
 #### 4）删除表
-disable 'users_tmp'
+`disable 'users_tmp'`
 
-drop 'users_tmp'
+`drop 'users_tmp'`
 #### 5）查看表状态
-exists 'users'
+`exists 'users'`
 
-is_enabled 'users'
+`is_enabled 'users'`
 
-is_disabled 'users’
+`is_disabled 'users’`
 #### 6）插入数据：使用 put 命令添加记录
-put 'users','xiaoming','info:age','24';
+`put 'users','xiaoming','info:age','24';`
 #### 7）获取数据：使用 get 命令获取一条记录
 取得一个 id 的所有数据
 
-get 'users','xiaoming'
+`get 'users','xiaoming'`
 
 获取一个 id，一个列族的所有数据
 
-get 'users','xiaoming','info'
+`get 'users','xiaoming','info'`
 
 获取一个 id，一个列族中一个列的所有数据
 
-get 'users','xiaoming','info:age'
+`get 'users','xiaoming','info:age'`
 #### 8）查看数据、查看所有记录：scan "表名称“
-scan 'test‘
+`scan 'test‘`
 #### 9）查看 test 表中的所有数据、查看某个表某个列中所有数据
-scan "表名称" , ['列名称:']
+`scan "表名称" , '列名称'`
 #### 10）更新记录
-put 'users','xiaoming','info:age' ,'29'
+`put 'users','xiaoming','info:age' ,'29'`
 #### 11）获取单元格版本数据
-get 'users','xiaoming',{COLUMN=>'info:age',VERSIONS=>1}、
+`get 'users','xiaoming',{COLUMN=>'info:age',VERSIONS=>1}`
 #### 12）获取单元格某个版本的信息（指定时间戳）
-get 'users','xiaoming',{COLUMN=>'info:age',TIMESTAMP=>1364874937056}
+`get 'users','xiaoming',{COLUMN=>'info:age',TIMESTAMP=>1364874937056}`
 #### 13）全表扫描
-scan 'users'
+`scan 'users'`
 #### 14）删除表的某个字段
-delete 'users','xiaoming','info:age'
+`delete 'users','xiaoming','info:age'`
 #### 15）删除整行
-deleteall 'users','xiaoming'
+`deleteall 'users','xiaoming'`
 #### 16）统计表的行
-count 'users'
+`count 'users'`
 #### 17）清空表
-truncate 'users'
+`truncate 'users'`
 ### 4、 关于名称空间的命令
-  - 1）创建命名空间 : create_namespace ‘MOMO_CHAT’
-  - 2）查看命名空间列表 : list_namespace
-  - 3）查看命名空间: describe_namespace ‘MOMO_CHAT’
-  - 4）命名空间创建表: create ‘MOMO_CHAT:MSG’,’C1’
+  - 1）创建命名空间 : `create_namespace ‘MOMO_CHAT’`
+  - 2）查看命名空间列表 : `list_namespace`
+  - 3）查看命名空间: `describe_namespace ‘MOMO_CHAT’`
+  - 4）命名空间创建表: `create ‘MOMO_CHAT:MSG’,’C1’`
 
 **注意: 带有命名空间的表, 使用冒号将命名空间和表名连接到一起**
-  - 5）删除命名空间: drop_namespace ‘MOMO_CHAT’
+  - 5）删除命名空间: `drop_namespace ‘MOMO_CHAT’`
 
 **注意: 删除命名空间, 命名空间中必须没有表, 否则无法删除**
 
 **注意:**
-1. deleteall 是在 hbase 2.0 版本后出现的, 在 2.0 版本之前, 只需要使用 delete 这个命令即
+1. `deleteall` 是在 hbase 2.0 版本后出现的, 在 2.0 版本之前, 只需要使用 `delete` 这个命令即
 可完成所有的删除数据工作,
-2. delete 删除数据时候, 只会删除最新版本的数据, 而 deleteall 直接将对应数据的所有的历
+2. `delete` 删除数据时候, 只会删除最新版本的数据, 而 `deleteall` 直接将对应数据的所有的历
 史版本全部删除
 ## HBase 基本概念
 ### 1、 基本架构
@@ -145,7 +145,7 @@ HBase 具有三个主要组件，即 HMaster Server、HBase Region Server 和 Zo
 实时监控 Region Server 的状态，将 Region server 的上线和下线信息，实时通知给 Master
 
 存储 HBase 的 schema,包括有哪些 table，每个 table 有哪些 column family
-#### **2）Hmaster**
+#### **2）HMaster**
 管理用户对 Table 的增、删、改、查操作
 
 管理 RegionServer 的负载均衡、调整 Region 的分布
@@ -166,20 +166,20 @@ Region 可理解为关系型数据库中的“分区”
 ### 3、 读写流程
 #### **写**
 ![hbase写流程](/image/hbase写流程.png)
-Client 向 HregionServer 发送写请求；
+Client 向 HRegionServer 发送写请求；
 
-HregionServer 将数据写到 HLog（write ahead log）。为了数据的持久化和恢复；
+HRegionServer 将数据写到 HLog（write ahead log）。为了数据的持久化和恢复；
 
-HregionServer 将数据写到内存（MemStore）；
+HRegionServer 将数据写到内存（MemStore）；
 
 反馈 Client 写成功。
 #### **读**
 ![hbase读流程](/image/hbase读流程.png)
 Client 先访问 zookeeper，从 meta 表读取 region 的位置，然后读取 meta 表中的数据。meta 中又存储了用户表的 region 信息；
 
-根据 namespace、表名和 rowkey 在 meta 表中找到对应的 region 信息；
+根据 namespace、表名和 rowKey 在 meta 表中找到对应的 region 信息；
 
-找到这个 region 对应的 regionserver；
+找到这个 region 对应的 region server；
 
 查找对应的 region；
 
@@ -269,13 +269,13 @@ if (flag) {
 ### 6、过滤器
 **使用方法：`scan.setFilter(filter);`**
 ### （1） 行键过滤器 RowFilter
-**Filter filter = new RowFilter(CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("row-22")));**
+`Filter filter = new RowFilter(CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("row-22")));`
 ### （2） 列族过滤器 FamilyFilter
-**Filter filter = new FamilyFilter(CompareFilter.CompareOp.LESS, new BinaryComparator(Bytes.toBytes("colfam3")));**
+`Filter filter = new FamilyFilter(CompareFilter.CompareOp.LESS, new BinaryComparator(Bytes.toBytes("colfam3")));`
 ### （3） 列过滤器 QualifierFilter
-**Filter filter = new QualifierFilter(CompareFilter.CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("col-2")));**
+`Filter filter = new QualifierFilter(CompareFilter.CompareOp.LESS_OR_EQUAL, new BinaryComparator(Bytes.toBytes("col-2")));`
 ### （4） 值过滤器 ValueFilter
-**Filter filter = new ValueFilter(CompareFilter.CompareOp.EQUAL, new SubstringComparator(".4") );**
+`Filter filter = new ValueFilter(CompareFilter.CompareOp.EQUAL, new SubstringComparator(".4") );`
 ### （5） 单列值过滤器 SingleColumnValueFilter
 ```java
 SingleColumnValueFilter filter = new SingleColumnValueFilter(Bytes.toBytes("colfam1"), Bytes.toBytes("col-5"),
@@ -285,9 +285,9 @@ filter.setFilterIfMissing(true);
 scan.setFilter(filter); 
 ```
 ### （6） 前缀过滤器 PrefixFilter----针对行键
-**Filter filter = new PrefixFilter(Bytes.toBytes("row1"));**
+`Filter filter = new PrefixFilter(Bytes.toBytes("row1"));`
 ### （7） 列前缀过滤器 ColumnPrefixFilter
-**Filter filter = new ColumnPrefixFilter(Bytes.toBytes("qual2"));**
+`Filter filter = new ColumnPrefixFilter(Bytes.toBytes("qual2"));`
 ## Hbase 设计
 ### Rowkey 设计
 #### 1) 避免使用递增行键/时序数据 当做 rowkey 的前缀
