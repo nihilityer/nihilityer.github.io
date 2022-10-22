@@ -16,8 +16,8 @@ tag:
 ### 2、Hbase 的基本介绍
 HBase 是 BigTable 的开源 java 版本。是建立在 HDFS 之上，提供高可靠性、高性能、列存储、可伸缩、实时读写 NoSQL 的数据库系统。HBase 仅能通过主键(row key)和主键的 range来检索数据，仅支持单行事务。
 ### 3、关系型数据库与非关系型数据库重点
-![关系型数据库](/image/关系型数据库.png)
-![非关系型数据库](/image/非关系型数据库.png)
+![关系型数据库](../image/关系型数据库.png)
+![非关系型数据库](../image/非关系型数据库.png)
 ### 4、SQL 语句分类
 数据定义语言：简称 **DDL**(Data Definition Language)，用来定义数据库对象：数据库，表，列等。关键字：create，alter，drop 等。
 
@@ -165,7 +165,7 @@ Region 可理解为关系型数据库中的“分区”
 处理 RegionServer 分配给它的任务
 ### 3、 读写流程
 #### **写**
-![hbase写流程](/image/hbase写流程.png)
+![hbase写流程](../image/hbase写流程.png)
 Client 向 HRegionServer 发送写请求；
 
 HRegionServer 将数据写到 HLog（write ahead log）。为了数据的持久化和恢复；
@@ -174,7 +174,7 @@ HRegionServer 将数据写到内存（MemStore）；
 
 反馈 Client 写成功。
 #### **读**
-![hbase读流程](/image/hbase读流程.png)
+![hbase读流程](../image/hbase读流程.png)
 Client 先访问 zookeeper，从 meta 表读取 region 的位置，然后读取 meta 表中的数据。meta 中又存储了用户表的 region 信息；
 
 根据 namespace、表名和 rowKey 在 meta 表中找到对应的 region 信息；
