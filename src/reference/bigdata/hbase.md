@@ -242,6 +242,8 @@ Get get = new Get("rk01".getBytes());
 get.addColumn("C1".getBytes(),"name".getBytes());
 //get 方法获取数据
 Result result = table.get(get);
+byte[] value = result.getValue("info".getBytes(), "name".getBytes());
+System.out.println(value.toString());
 //处理结果
 List<Cell> cells = result.listCells();
 //遍历集合获取每个单元格数据
