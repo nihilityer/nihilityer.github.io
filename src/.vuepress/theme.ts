@@ -31,6 +31,12 @@ export default hopeTheme({
 
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
+  encrypt: {
+    config: {
+      "/essay/": ["nihilityer"]
+    }
+  },
+
   plugins: {
     comment: false,
 
