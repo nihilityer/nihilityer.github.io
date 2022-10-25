@@ -7,9 +7,5 @@ category:
 ---
 
 ## 目录
-### 大数据组件
-- [Hadoop分布式计算与存储技术](bigdata/hadoop.md)
-- [Hbase基础知识整理](bigdata/hbase.md)
-- [Spark基础知识整理](bigdata/spark.md)
-### 其他
+- [大数据知识点整理](./bigdata/README.md)
 - [软件设计师刷题知识点总结](softwareDesigner.md)
