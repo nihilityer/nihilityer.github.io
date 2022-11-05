@@ -8,4 +8,4 @@ category:
 
 ## 目录
 
-- [工具使用心得](tools.md)
+- [协同过滤算法](collaborativeFiltering.md)
