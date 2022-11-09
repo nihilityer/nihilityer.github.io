@@ -11,7 +11,7 @@ actions:
     type: primary
 
 features:
-  - title: 编码心得
+  - title: 总结
     icon: code
     details: 在使用的过程中遇到的问题以及解决方式的整理
     link: /experience/

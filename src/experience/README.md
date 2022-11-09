@@ -1,9 +1,9 @@
 ---
-title: 编码心得
+title: 总结
 index: false
 icon: code
 category:
-  - 编码心得
+  - 总结
 ---
 
 ## 目录

@@ -2,7 +2,7 @@
 title: 协同过滤算法
 icon: condition
 category:
-  - 心得
+  - 总结
 tag:
   - tools
 ---
