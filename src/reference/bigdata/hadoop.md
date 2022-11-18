@@ -138,7 +138,7 @@ export $PATH:$JAVA_HOME/bin
 格式化HDFS进行测试
 
 ```bash
-hdsf namenode -format
+hdfs namenode -format
 ```
 
 启动hdfs :执行start-dfs.sh

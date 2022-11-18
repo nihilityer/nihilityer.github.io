@@ -4,7 +4,7 @@ icon: condition
 category:
   - 总结
 tag:
-  - tools
+  - RecommendationSystem
 ---
 
 ## 基本分类
