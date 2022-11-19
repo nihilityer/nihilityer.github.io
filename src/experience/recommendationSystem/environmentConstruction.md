@@ -143,8 +143,12 @@ export PATH=$PATH:$SCALA_HOME/bin
 ### 安装hadoop
 将hadoop压缩包解压（文件夹应为hadoop），在.bashrc文件中添加环境依赖
 ```shell
-export HADOOP_HOME=/home/nihilityer/software/scala
+export HADOOP_HOME=/home/nihilityer/software/hadoop
 export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
+```
+将JAVA_HOME添加到`hadoop-env.sh`
+```shell
+export JAVA_HOME=/home/nihilityer/software/jdk1.8
 ```
 配置hdfs相关文件：
 - 配置`core-site.xml`文件
@@ -171,7 +175,7 @@ export PATH=$PATH:$HADOOP_HOME/bin:$HADOOP_HOME/sbin
 ```
 - 初始化hdfs
 ```shell
-hdsf namenode -format
+hdfs namenode -format
 ```
 - 启动hdfs
 ```shell
