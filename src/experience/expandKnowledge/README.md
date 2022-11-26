@@ -1,6 +1,5 @@
 ---
 title: 拓展知识
-index: false
 icon: code
 category:
   - 总结
