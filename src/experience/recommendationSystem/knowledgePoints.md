@@ -1,5 +1,5 @@
 ---
-title: 推荐算法基础知识点
+title: 基础知识点
 icon: condition
 category:
   - 总结
