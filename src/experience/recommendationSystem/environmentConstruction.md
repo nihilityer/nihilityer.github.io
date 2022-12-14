@@ -220,5 +220,8 @@ export HADOOP_CONF_DIR=/home/nihilityer/software/hadoop/etc/hadoop
 ```
 验证：
 ```shell
-
+spark-shell --master yarn
 ```
+
+退出spark-shell的命令：`:quit`
+
