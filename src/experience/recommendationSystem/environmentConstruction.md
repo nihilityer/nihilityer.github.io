@@ -217,6 +217,7 @@ export PATH=$PATH:$SPARK_HOME/bin
 在`spark`文件夹`conf`目录下配置`spark-env.sh`文件（没有就使用模板文件创建）
 ```shell
 export HADOOP_CONF_DIR=/home/nihilityer/software/hadoop/etc/hadoop
+export YARN_CONF_DIR=/home/nihilityer/software/hadoop/etc/hadoop
 ```
 验证：
 ```shell
@@ -224,4 +225,23 @@ spark-shell --master yarn
 ```
 
 退出spark-shell的命令：`:quit`
+
+## 其他组件安装
+
+### 使用docker安装MySQL
+
+```shell
+sudo docker run --name mysql -e MYSQL_ROOT_PASSWORD=123456 --restart=always -p 3306:3306 -d mysql
+```
+
+```shell
+spark-submit \
+--deploy-mode client \
+--driver-memory 2g \
+--executor-memory 1g \
+--executor-cores 1 \
+--queue thequeue \
+--class me.nihilityer.dataLoad.DataLoadArrangement \
+DataLoadModule-1.0.0.jar
+```
 

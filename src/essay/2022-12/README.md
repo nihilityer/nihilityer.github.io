@@ -12,3 +12,5 @@ tag:
 ### 12月
 
 - [10日](10.md)
+- [28日](28.md)
+- [学习机器学习](learnMachineLearning.md)
