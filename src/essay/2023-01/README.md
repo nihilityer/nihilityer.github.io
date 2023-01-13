@@ -12,4 +12,6 @@ tag:
 ## 1月
 
 - [推荐系统构建](recommendBuild.md)
+- [03日笔记](03.md)
+- [机器学习学习](learnMachineLearning.md)
 
