@@ -107,19 +107,19 @@ $$
 
 $$
 Cost(h_{\theta}(x),y) = \begin{cases}
--log(h_{\theta}(x)) & \mbox{if } y=1 \\
--log(1-h_{\theta}(x)) & \mbox{if } y=0
+-log(h_{\theta}(x)) & if\quad  y=1 \\
+-log(1-h_{\theta}(x)) & if\quad  y=0
 \end{cases}
 $$
 ​	这个代价函数的特点就是，但$y=1$时，预测值为1时，代价函数值为0，但预测值与0越接近时，代价函数值越趋近于无穷大。但$y=0$时刚好相反。
 
 等价于：
 $$
-Cost(h_{\theta}(x),y)=\mbox{-y }log(h_{\theta}(x))-(1-y)log(1-h_{\theta}(x))
+Cost(h_{\theta}(x),y)=-y \log(h_{\theta}(x))-(1-y)\log(1-h_{\theta}(x))
 $$
 
 $$
-J(\theta)=-\frac{1}{m}[\sum_{i=1}^{m}y^{(i)}\mbox{ }log(h_{\theta}(x^{(i)}))+(1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]
+J(\theta)=-\frac{1}{m}[\sum_{i=1}^{m}y^{(i)}\log(h_{\theta}(x^{(i)}))+(1-y^{(i)})log(1-h_{\theta}(x^{(i)}))]
 $$
 
 #### 5、梯度下降
@@ -231,8 +231,8 @@ $$
 
 寻找一个低维的平面/直线，将数据投射到这个平面上，数据点到投影平面上的举例被称为投影误差，使用PCA时先进行均值归一化和特征规范化。PCA与线性回归的区别在于，误差计算方式不同。
 $$
-Sigma=\frac{1}{m}\sum_{i=1}^{m}(x^{(i)})(x^{(i)})^{T}=\frac{1}{m}X^{T}X\\
-[U,S,V]=svd(Sigma)\\
+\Sigma=\frac{1}{m}\sum_{i=1}^{m}(x^{(i)})(x^{(i)})^{T}=\frac{1}{m}X^{T}X\\
+U;S;V=svd(\Sigma)\\
 Ureduce=U(:,1:k)\\
 z=Ureduce^{T}x
 $$
