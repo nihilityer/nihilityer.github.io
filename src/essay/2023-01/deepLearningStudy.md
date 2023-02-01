@@ -213,7 +213,7 @@ z_{norm}^{(i)}=\frac{z^{(i)}-\mu}{\sqrt{\sigma^{2}+\epsilon}}\\
 \tilde{z}^{(i)}=\gamma z_{norm}^{(i)}+\beta
 $$
 
-### 卷积神经网络
+### 卷积神经网络（CNN）
 
 卷积是一种计算，定义一个过滤器/核子对矩阵进行“卷积“运算。
 
@@ -231,7 +231,7 @@ $$
 
 与max pooling的区别只是核中取平均值。
 
-#### 专业名词：
+#### 专业名词
 
 Pooling（池化层）、Fully connected（完全连通层）、卷积层
 
@@ -240,3 +240,109 @@ Pooling（池化层）、Fully connected（完全连通层）、卷积层
 **垂直边缘检测                                         水平边界检测**
 
 ![1674611242269](./assets/1674611242269.png)![1674611283468](./assets/1674611283468.png)
+
+### 递归神经网络（RNN）
+
+#### 专业名词
+
+独热编码向量、双向递归神经网络（BRNN）、基于时间的反向传播算法、前馈传播
+
+#### 插图
+
+![1674703210443](./assets/1674703210443.png)
+
+![1674789187274](./assets/1674789187274.png)+
+
+#### 公式
+
+$$
+a^{<0>}=\vec{0}\
+a^{<t>}=g_{1}(w_{aa}a^{<t-1>}+w_{ax}x^{<t>}+b_{a})\\
+\hat{y}^{<t>}=g_{2}(w_{ya}a^{<t>}+b_{y})
+$$
+
+计算$a^{<T_{x}-1>}$使用的 $g_{1}$一般是tanh函数或ReLu、计算$\hat{y}^{<T_{y}>}$使用的$g_{2}$一般使用Sgimoid激活函数或者Softmax激活函数。
+
+### 门控循环单元（GRU）
+
+使用一个细胞单元（$\tilde{c}^{<t>}$）用来记忆一些重要信息，并且使用$\varGamma_u$来判断是否更新这个细胞单元。
+$$
+\varGamma_{r}=\sigma(w_{r}[c^{<t-1>},x^{<t>}]+b_{r}) \\
+\tilde{c}^{<t>}=\tanh(\varGamma_{r}* w_{c}[c^{<t-1>},x^{<t>}]+b_{c})\\
+\varGamma_{u}=\sigma(w_{u}[c^{<t-1>},x^{<t>}]+b_{u})\\
+c^{<t>}=\varGamma_{u}*\tilde{c}^{<t>}+(1-\varGamma_{u})*c^{<t-1>}
+$$
+
+### 长短期记忆（LSTM）
+
+$$
+\tilde{c}^{<t>}=\tanh(w_{c}[c^{<t-1>},x^{<t>}]+b_{c})\\
+\varGamma_{u}=\sigma(w_{u}[c^{<t-1>},x^{<t>}]+b_{u})\\
+\varGamma_{f}=\sigma(w_{f}[c^{<t-1>},x^{<t>}]+b_{f})\\
+\varGamma_{o}=\sigma(w_{o}[c^{<t-1>},x^{<t>}]+b_{o})\\
+c^{<t>}=\varGamma_{u}*\tilde{c}^{<t>}+\varGamma_{f}*c^{<t-1>} \\
+a^{<t>}=\varGamma_{o}*\tanh(c^{<t>})
+$$
+
+![1674885059223](./assets/1674885059223.png)
+
+### 深度RNN
+
+![1674888892795](./assets/1674888892795.png)
+
+### 双向RNN
+
+![1675142245912](assets/1675142245912.png)
+
+### NLP
+
+#### 专业名词
+
+词嵌入、T-SNE、学习迁移、词向量、Skip-Gram模型、word2vec算法、负采样法、GloVe、SVU算法、词嵌入去偏见、集束搜索算法（Beam search）、长度规范化、Blue Score、CTC损失函数（联结主义时间分类）
+
+注：
+
+- Skip-Gram模型最后softmax消耗资源过多，所以需要用到负采样法。
+
+#### GloVe
+
+用于词向量化
+$$
+minimize\sum_{i=1}^{10000}\sum_{j=1}^{10000}f(X_{x,j})(\theta_{i}^{T}+b_{i}+b'_{j}-\log X_{i,j})^{2}
+$$
+
+#### 注意力模型
+
+编码——解码
+
+![1675140546871](assets/1675140546871.png)
+
+![1675144821945](assets/1675144821945.png)
+
+#### Transformer
+
+本质上就是Attention+CNN，主要思想有：Self-Attention（自注意力）、Multi-Head Attention（多头注意力）
+
+##### 自注意力
+
+$$
+A(q,K,V)=\sum_{i}\frac{\exp(q\cdot k^{<i>})}{\sum_{j}\exp(q\cdot k^{<j>})}v^{<i>}\\
+q^{<m>}=W^{Q}\cdot x^{<m>}\\
+k^{<m>}=W^{K}\cdot x^{<m>}\\
+v^{<m>}=W^{V}\cdot x^{<m>}
+$$
+
+上面这个式子是计算单个词的“答案”
+$$
+Attention(Q,K,V)=softmax(\frac{QK^{T}}{\sqrt{d_{k}}})V
+$$
+![1675217316699](assets/1675217316699.png)
+
+##### 多头注意力
+
+![1675218134619](assets/1675218134619.png)
+
+##### 整合
+
+![1675219446622](assets/1675219446622.png)
+
