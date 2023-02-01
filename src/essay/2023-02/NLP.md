@@ -1,7 +1,5 @@
 ---
 title: 自然语言处理学习
-index: false
-order: 2
 icon: result
 category:
   - 随笔
