@@ -2,9 +2,9 @@
 title: 基础概念
 icon: code
 category:
-- 总结
-  tag:
-- translatedDocuments
+  - 总结
+tag:
+  - translatedDocuments
 ---
 
 # 深度学习：第一部分第二课

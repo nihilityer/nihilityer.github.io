@@ -2,9 +2,9 @@
 title: RNN
 icon: code
 category:
-- 总结
-  tag:
-- Collect data
+  - 总结
+tag:
+  - Collect data
 ---
 
 # 深度学习：第一部分第六课

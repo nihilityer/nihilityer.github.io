@@ -2,9 +2,9 @@
 title: 数据获取
 icon: code
 category:
-- 总结
-  tag:
-- translatedDocuments
+  - 总结
+tag:
+  - translatedDocuments
 ---
 
 # 深度学习：第一部分第三课
