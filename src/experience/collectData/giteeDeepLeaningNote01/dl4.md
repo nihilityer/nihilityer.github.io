@@ -1,3 +1,12 @@
+---
+title: 协同过滤
+icon: code
+category:
+- 总结
+  tag:
+- translatedDocuments
+---
+
 # 深度学习：第一部分第四课
 
 +   [课程论坛](http://forums.fast.ai/t/wiki-lesson-4/9402/1)

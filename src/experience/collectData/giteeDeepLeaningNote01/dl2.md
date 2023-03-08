@@ -1,3 +1,12 @@
+---
+title: 基础概念
+icon: code
+category:
+- 总结
+  tag:
+- translatedDocuments
+---
+
 # 深度学习：第一部分第二课
 
 > 译者：[咸鱼](https://github.com/Watermelon233)、[Piddnad](https://github.com/Piddnad)

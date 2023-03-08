@@ -1,3 +1,12 @@
+---
+title: RNN深入
+icon: code
+category:
+- 总结
+  tag:
+- Collect data
+---
+
 # 深度学习：第一部分第七课
 
 > 译者：[飞龙](https://github.com/wizardforcel)

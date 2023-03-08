@@ -1,3 +1,12 @@
+---
+title: 数据获取
+icon: code
+category:
+- 总结
+  tag:
+- translatedDocuments
+---
+
 # 深度学习：第一部分第三课
 
 > 译者：[咸鱼](https://github.com/Watermelon233)

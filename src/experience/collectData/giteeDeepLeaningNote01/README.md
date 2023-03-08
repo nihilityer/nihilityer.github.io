@@ -7,6 +7,7 @@ category:
 tag:
   - Collect data
 ---
+
 ## gitee上的深度学习笔记
 
 来自[gitee仓库](https://gitee.com/wizardforcel/fastai-ml-dl-notes-zh)毕竟基础，对我学习可能没什么用，但是有点资料和数据可以拿来参考，可以随便放着。（如果这些资料涉及侵权，请联系我删除）

@@ -1,3 +1,12 @@
+---
+title: 物品分类深入
+icon: code
+category:
+- 总结
+  tag:
+- Collect data
+---
+
 # 深度学习：第二部分第九课
 
 ### 链接

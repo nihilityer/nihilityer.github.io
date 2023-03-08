@@ -1,3 +1,12 @@
+---
+title: 物品分类
+icon: code
+category:
+- 总结
+  tag:
+- Collect data
+---
+
 # 深度学习：第二部分第八课
 
 ### 物体检测
