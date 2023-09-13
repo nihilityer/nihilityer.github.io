@@ -14,3 +14,4 @@ tag:
 仓库：[系统代码地址](https://github.com/nihilityer/nihility-terminal)、[语音识别代码地址](https://github.com/nihilityer/speech_model)
 
 - [mocha模型论文](mocha.md)
+- [累积注意力的流式 ASR论文](ca.md)
