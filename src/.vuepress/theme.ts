@@ -1,11 +1,11 @@
 import { hopeTheme } from "vuepress-theme-hope";
 
 export default hopeTheme({
-  hostname: "https://nihilityer.github.io/",
+  hostname: "https://docs.nihilityer.top/",
 
   author: {
     name: "nihilityer",
-    url: "https://nihilityer.github.io/",
+    url: "https://docs.nihilityer.top/",
   },
 
   copyright: "by nihilityer",
@@ -29,7 +29,7 @@ export default hopeTheme({
     "/experience/": "structure"
   },
 
-  pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
+  pageInfo: ["Date", "Category", "Tag", "ReadingTime", "Word"],
 
   encrypt: {
     config: {
@@ -37,11 +37,19 @@ export default hopeTheme({
     }
   },
 
+  lastUpdated: false,
+  contributors: false,
+  editLink: false,
+
   plugins: {
     comment: false,
+    components: [
+      "PDF"
+    ],
 
     // Disable features you don't want here
     mdEnhance: {
+      tasklist: true,
       align: true,
       attrs: true,
       chart: true,
