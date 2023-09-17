@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://nihilityer.github.io/sitemap.xml
+Sitemap: https://docs.nihilityer.top/sitemap.xml
