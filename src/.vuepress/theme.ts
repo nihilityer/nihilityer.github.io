@@ -21,7 +21,7 @@ export default hopeTheme({
   docsDir: "src",
   docsBranch: "master",
 
-  navbar: ["/", "/reference/", "/experience/", "/essay/"],
+  navbar: ["/", "/reference/", "/experience/"],
 
   sidebar: {
     "/essay/": "structure",
@@ -31,11 +31,11 @@ export default hopeTheme({
 
   pageInfo: ["Date", "Category", "Tag", "ReadingTime", "Word"],
 
-  encrypt: {
-    config: {
-      "/essay/": ["nihilityer"]
-    }
-  },
+  // encrypt: {
+  //   config: {
+  //     "/essay/": ["nihilityer"]
+  //   }
+  // },
 
   lastUpdated: false,
   contributors: false,
