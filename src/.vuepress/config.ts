@@ -6,8 +6,8 @@ export default defineUserConfig({
   base: "/",
 
   lang: "zh-CN",
-  title: "文档演示",
-  description: "vuepress-theme-hope 的文档演示",
+  title: "AI游戏开发参考",
+  description: "使用AI辅助游戏开发的一些参考案例",
 
   theme,
 
