@@ -126,6 +126,7 @@ export default hopeTheme({
       category: "Announcements",
       categoryId: "DIC_kwDONdvA2M4ClO9f",
     },
+    slimsearch: true,
 
     // components: {
     //   components: ["Badge", "VPCard"],
