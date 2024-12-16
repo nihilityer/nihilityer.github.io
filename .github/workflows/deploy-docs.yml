@@ -42,7 +42,8 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run docs:build
-          > src/.vuepress/dist/.nojekyll
+          game-dev.nihilityer.top > src/.vuepress/dist/.nojekyll
+          game-dev.nihilityer.top > src/.vuepress/dist/CNAME
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
@@ -50,6 +51,3 @@ jobs:
           # 部署文档
           branch: gh-pages
           folder: src/.vuepress/dist
-          clean: true
-          clean-exclude: |
-            CNAME
