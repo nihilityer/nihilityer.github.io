@@ -1,3 +1,7 @@
+---
+index: false
+---
+
 # AI动画-3D
 
 [AI视频](AI%E5%8A%A8%E7%94%BB-3D/AI%E8%A7%86%E9%A2%91.md)

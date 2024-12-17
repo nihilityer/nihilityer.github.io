@@ -1,6 +1,7 @@
 ---
 title: 分享
-icon: lightbulb
+icon: comments
+index: false
 ---
 
 ## 分享按日期整理排序

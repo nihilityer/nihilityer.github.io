@@ -1,6 +1,7 @@
 ---
 title: 建议
 icon: lightbulb
+index: false
 ---
 
 ## 参考

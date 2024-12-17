@@ -1,3 +1,7 @@
+---
+index: false
+---
+
 # 实用AI记录本
 
 [AI绘图扩展](AI%E7%BB%98%E5%9B%BE%E6%89%A9%E5%B1%95.md)

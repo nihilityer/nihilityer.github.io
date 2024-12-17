@@ -1,6 +1,7 @@
 ---
 title: 参考
-icon: lightbulb
+icon: book
+index: false
 ---
 
 ## 参考
