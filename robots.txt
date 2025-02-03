@@ -1,0 +1,5 @@
+
+User-agent:*
+Disallow:
+
+Sitemap: https://game-dev.nihilityer.top/sitemap.xml
