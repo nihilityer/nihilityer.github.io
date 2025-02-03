@@ -18,7 +18,7 @@ features:
   - title: 分享
     icon: code
     details: 来自群友的分享，按日期整理
-    link: /suggest/
+    link: /share/
 ---
 
 **这里是项目的主页，提供快捷入口**
