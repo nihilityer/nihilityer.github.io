@@ -33,6 +33,8 @@ jobs:
           cache: pnpm
 
       - name: 安装依赖
+        environment:
+          - COREPACK_DEFAULT_TO_LATEST=0
         run: |
           corepack enable
           pnpm install --frozen-lockfile
