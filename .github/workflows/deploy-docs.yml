@@ -34,7 +34,6 @@ jobs:
 
       - name: 安装依赖
         run: |
-          COREPACK_INTEGRITY_KEYS=0 corepack enable
           pnpm install --frozen-lockfile
 
       - name: 构建文档
