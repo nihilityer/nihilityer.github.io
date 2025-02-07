@@ -50,7 +50,6 @@ jobs:
           pnpm run docs:build
           echo game-dev.nihilityer.top > src/.vuepress/dist/.nojekyll
           echo game-dev.nihilityer.top > src/.vuepress/dist/CNAME
-          apt install rsync -y
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
