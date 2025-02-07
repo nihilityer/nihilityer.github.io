@@ -15,3 +15,4 @@
 
 1. pixelization  [https://github.com/ka-de/comfy_pixelization](https://github.com/ka-de/comfy_pixelization)
 2. ComfyUI-PixelArt-Detector  [https://github.com/dimtoneff/ComfyUI-PixelArt-Detector](https://github.com/dimtoneff/ComfyUI-PixelArt-Detector)
+3. GrenKain/PixelArt-Processing-Nodes-for-ComfyUI https://github.com/GrenKain/PixelArt-Processing-Nodes-for-ComfyUI
