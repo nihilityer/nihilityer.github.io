@@ -29,8 +29,8 @@ jobs:
           pnpm --version
       - name: 设置 pnpm
         uses: pnpm/action-setup@v4
-        with:
-          version: 10
+        # with:
+        #   version: 10
 
 
       - name: 设置 Node.js
