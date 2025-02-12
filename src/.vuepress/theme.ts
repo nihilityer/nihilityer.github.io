@@ -28,6 +28,7 @@ export default hopeTheme({
   // 页脚
   footer: "AI游戏开发参考",
   displayFooter: true,
+  pageview: true,
 
   // 加密配置
   // encrypt: {
