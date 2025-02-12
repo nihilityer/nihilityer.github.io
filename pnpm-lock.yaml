@@ -11,6 +11,12 @@ importers:
       '@vuepress/bundler-vite':
         specifier: 2.0.0-rc.19
         version: 2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0)
+      '@vuepress/plugin-baidu-analytics':
+        specifier: 2.0.0-rc.74
+        version: 2.0.0-rc.74(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))
+      '@vuepress/plugin-google-analytics':
+        specifier: 2.0.0-rc.66
+        version: 2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))
       '@vuepress/plugin-slimsearch':
         specifier: 2.0.0-rc.66
         version: 2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))
@@ -846,6 +852,11 @@ packages:
     peerDependencies:
       vuepress: 2.0.0-rc.19
 
+  '@vuepress/helper@2.0.0-rc.74':
+    resolution: {integrity: sha512-k0FjkM9TKggcWkyZwXj4cLUIF3FBJ5iZGnC+Ln4OJVGD7k3SvT7TL7IaCZoFBIXTlepZwytsIN7K5Lbmpx0GfQ==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.19
+
   '@vuepress/highlighter-helper@2.0.0-rc.66':
     resolution: {integrity: sha512-RxhUIR+GFXXjCy5aFHHLvIKPcyyDhyzmka7shV+xr/vaU+EDbnQFrF67qo9pLDfzJc0KKTL9cKo4CcjkAoZ/tQ==}
     peerDependencies:
@@ -865,6 +876,11 @@ packages:
 
   '@vuepress/plugin-back-to-top@2.0.0-rc.66':
     resolution: {integrity: sha512-UeYLwjMV7zWbIR8iURDtzSfWQWKefSrYT/v6uo8XXhuC1U5IZD/MYlp+/H8EMQMYzmm4tqkbbsSSmlIdQBTpfw==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.19
+
+  '@vuepress/plugin-baidu-analytics@2.0.0-rc.74':
+    resolution: {integrity: sha512-LWUCIN2KeZ10gF8zIL2KmnaIS9PKSWu07+vqU/KqsyotjaUgBkz9iNSKoGsvOa8zUlOUS80f8Tna0BJpPAZJ9A==}
     peerDependencies:
       vuepress: 2.0.0-rc.19
 
@@ -905,6 +921,11 @@ packages:
 
   '@vuepress/plugin-git@2.0.0-rc.66':
     resolution: {integrity: sha512-GiAniZY/gI5u5La3/+qqKrDyYLZoEdE3N81buh4Nmf9K9RGSPw8mb/+XJ2q58zX8plPn925YXverfjkJLYxWyg==}
+    peerDependencies:
+      vuepress: 2.0.0-rc.19
+
+  '@vuepress/plugin-google-analytics@2.0.0-rc.66':
+    resolution: {integrity: sha512-spVfY/izQjbjk+o2Ru0nmY62x0z3OoFTDlfRD8NyYN/gfIU4G8wLhvbIjAj+fpueytPZt/PUYeokA0GA+oOZ6A==}
     peerDependencies:
       vuepress: 2.0.0-rc.19
 
@@ -1040,11 +1061,20 @@ packages:
   '@vueuse/core@12.0.0':
     resolution: {integrity: sha512-C12RukhXiJCbx4MGhjmd/gH52TjJsc3G0E0kQj/kb19H3Nt6n1CA4DRWuTdWWcaFRdlTe0npWDS942mvacvNBw==}
 
+  '@vueuse/core@12.5.0':
+    resolution: {integrity: sha512-GVyH1iYqNANwcahAx8JBm6awaNgvR/SwZ1fjr10b8l1HIgDp82ngNbfzJUgOgWEoxjL+URAggnlilAEXwCOZtg==}
+
   '@vueuse/metadata@12.0.0':
     resolution: {integrity: sha512-Yzimd1D3sjxTDOlF05HekU5aSGdKjxhuhRFHA7gDWLn57PRbBIh+SF5NmjhJ0WRgF3my7T8LBucyxdFJjIfRJQ==}
 
+  '@vueuse/metadata@12.5.0':
+    resolution: {integrity: sha512-Ui7Lo2a7AxrMAXRF+fAp9QsXuwTeeZ8fIB9wsLHqzq9MQk+2gMYE2IGJW48VMJ8ecvCB3z3GsGLKLbSasQ5Qlg==}
+
   '@vueuse/shared@12.0.0':
     resolution: {integrity: sha512-3i6qtcq2PIio5i/vVYidkkcgvmTjCqrf26u+Fd4LhnbBmIT6FN8y6q/GJERp8lfcB9zVEfjdV0Br0443qZuJpw==}
+
+  '@vueuse/shared@12.5.0':
+    resolution: {integrity: sha512-vMpcL1lStUU6O+kdj6YdHDixh0odjPAUM15uJ9f7MY781jcYkIwFA4iv2EfoIPO6vBmvutI1HxxAwmf0cx5ISQ==}
 
   ansi-regex@5.0.1:
     resolution: {integrity: sha512-quJQXlTSUGL2LH9SUXo8VwsY4soanhgo6LNSm84E1LBcE8s3O0wpdiRzyR9z/ZZJMlMWv37qOOb9pdJlMUEKFQ==}
@@ -2953,6 +2983,18 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vuepress/helper@2.0.0-rc.74(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))':
+    dependencies:
+      '@vue/shared': 3.5.13
+      '@vueuse/core': 12.5.0
+      cheerio: 1.0.0
+      fflate: 0.8.2
+      gray-matter: 4.0.3
+      vue: 3.5.13
+      vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13)
+    transitivePeerDependencies:
+      - typescript
+
   '@vuepress/highlighter-helper@2.0.0-rc.66(@vueuse/core@12.0.0)(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))':
     dependencies:
       vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13)
@@ -2992,6 +3034,14 @@ snapshots:
     dependencies:
       '@vuepress/helper': 2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))
       '@vueuse/core': 12.0.0
+      vue: 3.5.13
+      vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13)
+    transitivePeerDependencies:
+      - typescript
+
+  '@vuepress/plugin-baidu-analytics@2.0.0-rc.74(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))':
+    dependencies:
+      '@vuepress/helper': 2.0.0-rc.74(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))
       vue: 3.5.13
       vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13)
     transitivePeerDependencies:
@@ -3044,6 +3094,10 @@ snapshots:
   '@vuepress/plugin-git@2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))':
     dependencies:
       execa: 9.5.2
+      vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13)
+
+  '@vuepress/plugin-google-analytics@2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))':
+    dependencies:
       vuepress: 2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13)
 
   '@vuepress/plugin-links-check@2.0.0-rc.66(vuepress@2.0.0-rc.19(@vuepress/bundler-vite@2.0.0-rc.19(@types/node@22.10.2)(sass-embedded@1.83.0))(vue@3.5.13))':
@@ -3289,9 +3343,26 @@ snapshots:
     transitivePeerDependencies:
       - typescript
 
+  '@vueuse/core@12.5.0':
+    dependencies:
+      '@types/web-bluetooth': 0.0.20
+      '@vueuse/metadata': 12.5.0
+      '@vueuse/shared': 12.5.0
+      vue: 3.5.13
+    transitivePeerDependencies:
+      - typescript
+
   '@vueuse/metadata@12.0.0': {}
 
+  '@vueuse/metadata@12.5.0': {}
+
   '@vueuse/shared@12.0.0':
+    dependencies:
+      vue: 3.5.13
+    transitivePeerDependencies:
+      - typescript
+
+  '@vueuse/shared@12.5.0':
     dependencies:
       vue: 3.5.13
     transitivePeerDependencies:
