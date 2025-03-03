@@ -16,7 +16,7 @@ export default defineUserConfig({
       id: 'G-LXCRNWBQ53',
     }),
     baiduAnalyticsPlugin({
-      id: '77d2cbebcc7fa2a6d8942b48519ea721'
+      id: '2e5ea6f6f805e35bff32a7ac99b9cd4b'
     }),
   ],
   // 和 PWA 一起启用
