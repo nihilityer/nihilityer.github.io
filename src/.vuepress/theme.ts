@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://game-dev.nihilityer.top",
+  hostname: "https://www.nihilityer.top",
 
   author: {
     name: "nihilityer",
-    url: "https://game-dev.nihilityer.top",
+    url: "https://www.nihilityer.top",
   },
 
   iconAssets: "fontawesome-with-brands",

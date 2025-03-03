@@ -48,8 +48,8 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |-
           pnpm run docs:build
-          echo nihilityer.top > src/.vuepress/dist/.nojekyll
-          echo nihilityer.top > src/.vuepress/dist/CNAME
+          echo www.nihilityer.top > src/.vuepress/dist/.nojekyll
+          echo www.nihilityer.top > src/.vuepress/dist/CNAME
 
       - name: 部署文档
         uses: JamesIves/github-pages-deploy-action@v4
