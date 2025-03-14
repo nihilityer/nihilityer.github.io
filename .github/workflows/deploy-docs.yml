@@ -50,6 +50,7 @@ jobs:
           pnpm run docs:build
           echo www.nihilityer.top > src/.vuepress/dist/.nojekyll
           echo www.nihilityer.top > src/.vuepress/dist/CNAME
+          mkdir src/.vuepress/dist/video
           cp video/* src/.vuepress/dist/video/
 
       - name: 部署文档
