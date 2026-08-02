@@ -26,7 +26,7 @@ export default hopeTheme({
   sidebar,
 
   // 页脚
-  footer: "AI游戏开发参考",
+  footer: "AI游戏开发参考 · 群号 753289747",
   displayFooter: true,
   // pageview: true,
 

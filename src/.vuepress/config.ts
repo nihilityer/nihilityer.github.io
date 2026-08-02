@@ -8,7 +8,7 @@ export default defineUserConfig({
 
   lang: "zh-CN",
   title: "AI游戏开发参考",
-  description: "使用AI辅助游戏开发的一些参考案例",
+  description: "来自 AI 游戏开发交流群的最新 AI 工具推荐、案例与历史资料",
 
   theme,
   plugins: [
