@@ -6,7 +6,7 @@ https://new-sankaku.github.io/SP-MangaEditer
 
 集成SD和comfyui的AI漫画创作工具
 
-![ce01f55efd9736986fafcddcf04cb413_720.jpg](AI%E6%BC%AB%E7%94%BB/ce01f55efd9736986fafcddcf04cb413_720.jpg)
+![ce01f55efd9736986fafcddcf04cb413_720.jpg](./AI%E6%BC%AB%E7%94%BB/ce01f55efd9736986fafcddcf04cb413_720.jpg)
 
 # 漫画大模型
 
@@ -14,7 +14,7 @@ https://new-sankaku.github.io/SP-MangaEditer
 
 [https://jianzongwu.github.io/projects/diffsensei/](https://jianzongwu.github.io/projects/diffsensei/)
 
-![67c28a523a47512573936c09608146e0.png](AI%E6%BC%AB%E7%94%BB/67c28a523a47512573936c09608146e0.png)
+![67c28a523a47512573936c09608146e0.png](./AI%E6%BC%AB%E7%94%BB/67c28a523a47512573936c09608146e0.png)
 
 # 四格漫画in context lora
 

@@ -37,4 +37,4 @@ ConsisID：开源的角色一致性文生视频模型
 
 # 2D动画软件procreate dreams
 
-![image.png](AI%E5%8A%A8%E7%94%BB-3D/image.png)
+![image.png](./AI%E5%8A%A8%E7%94%BB-3D/image.png)

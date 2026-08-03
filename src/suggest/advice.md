@@ -14,4 +14,4 @@ icon: circle-exclamation
 
 [地址](https://nga.178.com/read.php?tid=35056985&page=2&rand=822)
 
-![b12531a50b7425432a0f1f223390df54.png](image%2Fb12531a50b7425432a0f1f223390df54.png)
+![b12531a50b7425432a0f1f223390df54.png](./image%2Fb12531a50b7425432a0f1f223390df54.png)

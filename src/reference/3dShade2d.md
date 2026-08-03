@@ -41,10 +41,10 @@ void fragment() {
 }
 ```
 
-![效果展示](image%2Fa5a2a51d2adec3beadc0ec7d27557335.jpg)
+![效果展示](./image%2Fa5a2a51d2adec3beadc0ec7d27557335.jpg)
 
 ## blender
 
 [实现参考](https://astropulse.gumroad.com/l/BlenderToPixels) （可能需要魔法来访问）
 
-![效果展示](image%2Fa14f392be5c7cddb6f21c87e64d95054.png)
+![效果展示](./image%2Fa14f392be5c7cddb6f21c87e64d95054.png)

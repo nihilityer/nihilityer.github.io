@@ -16,11 +16,11 @@ comfyui工作流-PS插件
 
 还挺实用的
 
-![18cdb0d1dc5cfd779d396cc68188b002_720.png](+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/18cdb0d1dc5cfd779d396cc68188b002_720.png)
+![18cdb0d1dc5cfd779d396cc68188b002_720.png](./+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/18cdb0d1dc5cfd779d396cc68188b002_720.png)
 
-![293fcf0bee0dfe31f154731ad04e76f1_720.png](+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/293fcf0bee0dfe31f154731ad04e76f1_720.png)
+![293fcf0bee0dfe31f154731ad04e76f1_720.png](./+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/293fcf0bee0dfe31f154731ad04e76f1_720.png)
 
-![b683b2c38e8859329e1d320272c4c20d_720.png](+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/b683b2c38e8859329e1d320272c4c20d_720.png)
+![b683b2c38e8859329e1d320272c4c20d_720.png](./+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/b683b2c38e8859329e1d320272c4c20d_720.png)
 
 冲着Adobe来的，小熊猫很强我只能说
 
@@ -35,4 +35,4 @@ comfyui工作流-PS插件
 
 调整完图像大小和位置以后，点击Compositor 节点的 Continue 按钮工作流就会继续生成
 
-![1ea0fd95ed9a8fd15521b9e322c62430_720.jpg](+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/1ea0fd95ed9a8fd15521b9e322c62430_720.jpg)
+![1ea0fd95ed9a8fd15521b9e322c62430_720.jpg](./+%E8%BD%AF%E4%BB%B6-AI%E7%BB%98%E5%9B%BE/1ea0fd95ed9a8fd15521b9e322c62430_720.jpg)

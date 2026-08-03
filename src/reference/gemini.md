@@ -36,7 +36,7 @@ and inventory slots for ingredients and special recipes. The design is enhanced 
 such as simmering a pot of soup and satisfied customers eating noodles, creating an engaging and delicious experience
 ```
 
-![image-fx-01.png](image/image-fx-01.png)
+![image-fx-01.png](./image/image-fx-01.png)
 
 ```
 下装、连衣裙和配饰，以及一个详细的人体模型或化身来展示这些服装。
@@ -51,7 +51,7 @@ and a wardrobe-like inventory for storing and managing a large collection of clo
 The design is further enhanced with animated details, such as rotating dresses.
 ```
 
-![image-fx-02.png](image/image-fx-02.png)
+![image-fx-02.png](./image/image-fx-02.png)
 
 ```
 显示一个战场情况的迷你地图。
@@ -67,7 +67,7 @@ such as attack, move, and use skills.
 The design is also enhanced with animated effects, such as skill animations and battle effects.
 ```
 
-![image-fx-03.png](image/image-fx-03.png)
+![image-fx-03.png](./image/image-fx-03.png)
 
 ```
 测试仪和食品分配器。有一个像素化的水箱显示，显示了水族馆的当前状态，包括水的透明度、温度计和鱼的数量等细节。
@@ -83,7 +83,7 @@ It also includes a catalog of fish and plants that can be added, along with grow
 The design is adorned with animated pixel details, such as swimming fish, gently floating bubbles, and growing plants.
 ```
 
-![image-fx-04.png](image/image-fx-04.png)
+![image-fx-04.png](./image/image-fx-04.png)
 
 ```
 喂食槽和动物玩具。有一个像素化的动物园地图显示，显示了不同动物栖息地的布局，包括动物种群数量、幸福水平和清洁指标等细节。
@@ -100,7 +100,7 @@ along with their specific care requirements and growth stages.
 The design incorporates animated pixel details.
 ```
 
-![image-fx-05.png](image/image-fx-05.png)
+![image-fx-05.png](./image/image-fx-05.png)
 
 ```
 房屋展示，显示猫的当前位置，无论是在床上打盹，在地板上玩玩具，还是栖息在窗台上。
@@ -117,7 +117,7 @@ The design is filled with animated pixel details,
 such as the cat pouncing on a toy mouse, stretching its body, and meowing.
 ```
 
-![image-fx-06.png](image/image-fx-06.png)
+![image-fx-06.png](./image/image-fx-06.png)
 
 ```
 艺术设计程序和声音编辑器。有一个像素化的办公室布局显示，显示了不同的部门和工作站，以及正在进行的项目的状态以及团队成员的技能和精力水平。
@@ -131,7 +131,7 @@ along with the status of ongoing projects and the skills and energy levels of te
 It also features a game asset library, including character models, backgrounds, music tracks, and marketplaces. 
 ```
 
-![image-fx-07.png](image/image-fx-07.png)
+![image-fx-07.png](./image/image-fx-07.png)
 
 ```
 装饰工具和材料，如锤子、油漆辊、壁纸样品和织物样本。
@@ -145,7 +145,7 @@ with the option to change layouts and dimensions.
 It also includes a furniture catalog.
 ```
 
-![image-fx-08.png](image/image-fx-08.png)
+![image-fx-08.png](./image/image-fx-08.png)
 
 ```
 精美的Ul设计，模拟了一款色彩缤纷的卡通冒险游戏，带有欢快的幻想元素。
@@ -160,7 +160,7 @@ chubby dragon holding a bright golden star, surrounded by soft clouds and sparkl
 The color palette includes soft pinks, sky blues, and sunny yellows.
 ```
 
-![image-fx-09.png](image/image-fx-09.png)
+![image-fx-09.png](./image/image-fx-09.png)
 
 ```
 Ul设计迷人，是一款舒适而充满活力的便利店模拟游戏，氛围可爱而诱人。
@@ -175,7 +175,7 @@ surrounded by cartoon-style items such as snacks, drinks, and a cash register.
 The color scheme is composed of soft pastel greens.
 ```
 
-![image-fx-10.png](image/image-fx-10.png)
+![image-fx-10.png](./image/image-fx-10.png)
 
 ```
 设计精美的UI，为时尚而充满活力的服装店、模拟游戏，营造出别致而诱人的氛围。
@@ -188,7 +188,7 @@ creating a chic and inviting atmosphere. At the center, there’s a cute logo fe
 with a mannequin dressed in fashionable clothes, and a striped awning, surrounded by cartoon-style items such as hangers.
 ```
 
-![image-fx-11.png](image/image-fx-11.png)
+![image-fx-11.png](./image/image-fx-11.png)
 
 ```
 沉浸式设计的Ul是一款冒险而充满活力的海洋生存游戏，氛围粗犷而诱人。
@@ -202,7 +202,7 @@ surrounded by cartoon-style elements such as fish, coconuts, and wooden planks.
 The color scheme is composed of deep sea blues.
 ```
 
-![image-fx-12.png](image/image-fx-12.png)
+![image-fx-12.png](./image/image-fx-12.png)
 
 ```
 设计迷人的Ul，是一款充满活力和动作的侧滚平台游戏，具有俏皮和冒险的氛围。
@@ -215,7 +215,7 @@ At the center, there’s a dynamic logo featuring a hero character performing a 
 holding a sword or power-up, surrounded by cartoon-style elements such as coins, treasure chests, and enemy crests.
 ```
 
-![image-fx-13.png](image/image-fx-13.png)
+![image-fx-13.png](./image/image-fx-13.png)
 
 ```
 令人振奋的UI设计，适用于高速和肾上腺素刺激的赛车游戏，具有时尚和竞争的氛围。
@@ -228,7 +228,7 @@ At the center, there’s a bold logo featuring a roaring race car with burning t
 surrounded by dynamic elements such as checkered flags, speedometers, and tire skid marks.
 ```
 
-![image-fx-14.png](image/image-fx-14.png)
+![image-fx-14.png](./image/image-fx-14.png)
 
 ```
 设计明亮的Ul是一款色彩丰富、令人上瘾的三对一益智游戏，氛围欢快而异想天开。
@@ -242,7 +242,7 @@ gem-like fragments in various shapes—stars, hearts, and jewels—surrounded by
 The color scheme includes vibrant pinks, blues, yellows, and greens, along with charming icons.
 ```
 
-![image-fx-15.png](image/image-fx-15.png)
+![image-fx-15.png](./image/image-fx-15.png)
 
 ```
 Ul设计优雅，是一款战略和沉浸式纸牌游戏，具有神秘和竞争的氛围。
@@ -256,7 +256,7 @@ surrounded by swirling magical energy and symbols such as swords, shields, and e
 The color scheme includes deep purples, gold, and dark blues.
 ```
 
-![image-fx-16.png](image/image-fx-16.png)
+![image-fx-16.png](./image/image-fx-16.png)
 
 ```
 一款充满动作的战略塔防游戏设计的生动界面，带有一种富有趣味性和沉浸感的氛围。
@@ -270,7 +270,7 @@ surrounded by arrows, cannonballs, and magical runes.
 The color scheme includes earthy browns, vibrant greens, and fiery reds, evoking a sense of battle.
 ```
 
-![image-fx-17.png](image/image-fx-17.png)
+![image-fx-17.png](./image/image-fx-17.png)
 
 ```
 设计迷人的Ul是一款舒适而怀旧的像素艺术农业游戏，氛围温暖而放松。
@@ -283,4 +283,4 @@ At the center, there’s a cute logo featuring a pixelated barn, surrounded by c
 The color scheme includes earthy tones like soft greens and warm browns.
 ```
 
-![image-fx-18.png](image/image-fx-18.png)
+![image-fx-18.png](./image/image-fx-18.png)

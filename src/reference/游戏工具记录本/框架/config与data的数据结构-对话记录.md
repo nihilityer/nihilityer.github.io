@@ -8,11 +8,11 @@
 
 例如这种 所有需要参数都直接生成出来：
 
-![96ba7a08bb11f885f2b4aea301e78aed_720.png](config%E4%B8%8Edata%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95/96ba7a08bb11f885f2b4aea301e78aed_720.png)
+![96ba7a08bb11f885f2b4aea301e78aed_720.png](./config%E4%B8%8Edata%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95/96ba7a08bb11f885f2b4aea301e78aed_720.png)
 
 然后通过这种统一的配置管理类来管理加载/卸载：
 
-![bc4e3c1c7522a4af866f63cb81da9d51_720.png](config%E4%B8%8Edata%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95/bc4e3c1c7522a4af866f63cb81da9d51_720.png)
+![bc4e3c1c7522a4af866f63cb81da9d51_720.png](./config%E4%B8%8Edata%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95/bc4e3c1c7522a4af866f63cb81da9d51_720.png)
 
 然后每个配置生成的调用类都实现统一的 get 方法来获取你所需要的配置 
 
@@ -20,7 +20,7 @@
 
 就例如这种我需要这个 id 的配置 直接通过对应的 id 获取在获取的同时直接缓存起来 下次在用就不用再去找：
 
-![474548274af61d2240d58afa50ee8f6b.png](config%E4%B8%8Edata%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95/474548274af61d2240d58afa50ee8f6b.png)
+![474548274af61d2240d58afa50ee8f6b.png](./config%E4%B8%8Edata%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84-%E5%AF%B9%E8%AF%9D%E8%AE%B0%E5%BD%95/474548274af61d2240d58afa50ee8f6b.png)
 
 你的意思是应该吧配置读取并且放入缓存中？
 
