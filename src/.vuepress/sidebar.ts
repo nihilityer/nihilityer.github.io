@@ -17,9 +17,16 @@ export default sidebar({
       text: "架构 · 配置与运行时数据",
       link: "/tech/architecture/config-and-runtime-data.html",
     },
+    {
+      text: "架构 · AI 工具平台",
+      link: "/tech/architecture/ai-toolkit-platform.html",
+    },
   ],
   "/archive/": [{ text: "资料归档说明", link: "/archive/" }],
-  "/resources/": [{ text: "官方资源直达", link: "/resources/" }],
+  "/resources/": [
+    { text: "免费资源获取", link: "/resources/" },
+    { text: "官方文档与学习", link: "/resources/official-docs.html" },
+  ],
   "/reference/": "structure",
   "/suggest/": "structure",
   "/share/": "structure",

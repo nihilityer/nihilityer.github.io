@@ -20,6 +20,7 @@ index: false
 ## 架构
 
 - [配置与运行时数据分离](./architecture/config-and-runtime-data.md)：区分静态配置、存档状态和瞬时状态，并按项目规模选择加载策略。
+- [面向独立游戏的 AI 工具平台架构](./architecture/ai-toolkit-platform.md)：把内容生成、动画、世界生成、测试等能力通过统一任务、资产管线和引擎适配层接入项目。
 
 ::: info 整理原则
 “技术分享”保留可迁移的方法与原理；带有强时效性的模型排行、产品能力和价格统一放在 [AI 工具推荐](/tools/)；尚未复核的聊天记录留在[资料归档](/archive/)。
