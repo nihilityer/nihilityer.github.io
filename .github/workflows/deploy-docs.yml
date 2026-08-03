@@ -40,7 +40,7 @@ jobs:
           NODE_OPTIONS: --max_old_space_size=8192
         run: |
           pnpm run docs:build
-          touch src/.vuepress/dist/.nojekyll
+          echo www.nihilityer.top > src/.vuepress/dist/.nojekyll
           echo www.nihilityer.top > src/.vuepress/dist/CNAME
           mkdir src/.vuepress/dist/video
           cp video/* src/.vuepress/dist/video/
