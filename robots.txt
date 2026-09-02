@@ -1,5 +1,4 @@
-
 User-agent:*
 Disallow:
 
-Sitemap: https://game-dev.nihilityer.top/sitemap.xml
+Sitemap: https://docs.llmtest.top/sitemap.xml
