@@ -4,11 +4,11 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://www.nihilityer.top",
+  hostname: "https://docs.llmtest.top",
 
   author: {
     name: "nihilityer",
-    url: "https://www.nihilityer.top",
+    url: "https://docs.llmtest.top",
   },
 
   logo: "logo.svg",
