@@ -13,7 +13,7 @@ export default hopeTheme({
 
   logo: "logo.svg",
 
-  repo: "nihilityer/nihilityer.github.io",
+  repo: "nihilityer/game-dev-docs",
 
   docsDir: "src",
 
@@ -124,7 +124,7 @@ export default hopeTheme({
     // 注意: 仅用于测试! 你必须自行生成并在生产环境中使用自己的评论服务
     comment: {
       provider: "Giscus",
-      repo: "nihilityer/nihilityer.github.io",
+      repo: "nihilityer/game-dev-docs",
       repoId: "R_kgDONdvA2A",
       category: "Announcements",
       categoryId: "DIC_kwDONdvA2M4ClO9f",
